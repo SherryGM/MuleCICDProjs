@@ -10,9 +10,6 @@
 
 	<name>jenkins-cicd-demo</name>
 
-
-
-
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -29,6 +26,14 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeloyment>
+				<username>Mule138</username>
+				<password>Shi_1st_1</password>
+				<environment>Sandbox</environment>
+				<workerTYpe>Micro</workerTYpe>
+				<applicationName>mule-jenkins-cicd-demo-service</applicationName>
+				<muleVersion>${app.runtime}</muleVersion>
+				</cloudHubDeloyment>
 				</configuration>
 			</plugin>
 		</plugins>
