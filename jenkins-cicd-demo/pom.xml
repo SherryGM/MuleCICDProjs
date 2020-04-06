@@ -30,7 +30,8 @@
 				<username>Mule138</username>
 				<password>Shi_1st_1</password>
 				<environment>Sandbox</environment>
-				<workerTYpe>Micro</workerTYpe>
+				<workerType>Micro</workerType>
+				<worker>1</worker>
 				<applicationName>mule-jenkins-cicd-demo-service</applicationName>
 				<muleVersion>${app.runtime}</muleVersion>
 				</cloudHubDeployment>
