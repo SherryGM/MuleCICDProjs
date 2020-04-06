@@ -26,14 +26,14 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<cloudHubDeloyment>
+				<cloudHubDeployment>
 				<username>Mule138</username>
 				<password>Shi_1st_1</password>
 				<environment>Sandbox</environment>
 				<workerTYpe>Micro</workerTYpe>
 				<applicationName>mule-jenkins-cicd-demo-service</applicationName>
 				<muleVersion>${app.runtime}</muleVersion>
-				</cloudHubDeloyment>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
