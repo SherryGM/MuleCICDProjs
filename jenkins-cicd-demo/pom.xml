@@ -34,6 +34,7 @@
 				<workers>1</workers>
 				<applicationName>mule-jenkins-cicd-demo-service</applicationName>
 				<muleVersion>${app.runtime}</muleVersion>
+				<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
