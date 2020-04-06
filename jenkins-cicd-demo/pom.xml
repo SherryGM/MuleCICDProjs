@@ -31,7 +31,7 @@
 				<password>Shi_1st_1</password>
 				<environment>Sandbox</environment>
 				<workerType>Micro</workerType>
-				<worker>1</worker>
+				<workers>1</workers>
 				<applicationName>mule-jenkins-cicd-demo-service</applicationName>
 				<muleVersion>${app.runtime}</muleVersion>
 				</cloudHubDeployment>
